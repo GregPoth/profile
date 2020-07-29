@@ -1,0 +1,146 @@
+@import url("http://fonts.googleapis.com/css?family=DM+Sans:400,300,700|Inter:300,400,500,700");
+
+
+body {
+  padding-top: 16px;
+  font-family: 'DM Sans', sans-serif;
+  margin :0;
+  height:100vh;
+  z-index: 2;
+  position: relative;
+/*  background-image: url("./images/brume-dans-la-jungle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;*/
+}
+
+body:before {
+  content:"";
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/brume-dans-la-jungle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  filter: blur(2px);
+}
+
+.bg-image{
+  z-index: 1;
+}
+.container {
+  z-index: 2;
+  margin: 16px;
+  margin: auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+h1 {
+  color: #FE5E41;
+  font-family: 'Inter', sans-serif ;
+  font-size: 32px;
+
+}
+h2 {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+p {
+  color: #08090A;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #696D7D
+}
+
+i {
+  text-decoration: none;
+}
+
+.main-wrapper {
+background-color: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0,0,0,0.07);
+border-radius: 8px;
+padding: 20px 20px 20px 20px;
+}
+
+#main-wrapper-image {
+  width : 100px;
+  border-radius: 50px;
+}
+.btn-main-wrapper:hover {
+  color: #558C8C;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #FDFFFC ;
+  padding : 12px 24px 12px 24px;
+  margin: 24px;
+  border-style: solid;
+  border-size: 2px;
+  border-color: #558C8C;
+  border-radius: 8px;
+}
+
+.btn-main-wrapper {
+  color: #FDFFFC;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #558C8C ;
+  padding : 12px 24px 12px 24px;
+  margin: 24px;
+  border-radius: 8px;
+}
+
+.bottom-wrapper {
+margin-top: 24px;
+background-color: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0,0,0,0.07);
+padding: 20px 20px 20px 20px;
+border-radius: 8px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.list-inline > li {
+ color: #696D7D;
+  list-style: none;
+  display: inline;
+  font-size: 48px;
+  padding : 12px;
+}
+
+#petit-detail {
+  font-size: 10px;
+  font-color: rgba (8,9,10,0.8);
+}
+#title-bot {
+  margin-bottom:0px;
+}
+.pre-btn {
+  margin-bottom: 34px;
+}
